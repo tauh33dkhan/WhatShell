@@ -7,7 +7,7 @@ WhatShell allows you to execute commands on your system remotely using WhatsApp 
 To use this tool, you will need the following:
 
 - Two WhatsApp accounts. One that will be used to receive messages and the other that will be used to send commands.
-- Node.js installed on your VPS.
+- Node.js installed on your System.
 
 ## Installation
 
