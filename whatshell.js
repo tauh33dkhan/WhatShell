@@ -19,7 +19,7 @@ client.on('ready', () => {
 client.on('message', async message => {
     if (message._data.from != process.env.MYWHATSAPPNUMBER) return
     if (message.body.startsWith("/")) {
-        const cmd = message.body.split("/")[1]
+        const cmd = message.body.substring(1)
         await getChatResponse(cmd, message)
     }
 })
